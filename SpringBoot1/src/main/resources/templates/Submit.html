@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Ajoutez les balises meta, titre, etc. ici -->
+</head>
+<body>
+<p th:if="${client != null}" th:text="'The user ' + ${client.nom} + ' added'" class="notification"></p>
+</body>
+</html>
